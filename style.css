@@ -1,0 +1,75 @@
+body {
+    box-sizing: border-box;
+    
+  background: linear-gradient(270deg, #ff5f6d, #171be9);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite alternate;
+    
+  }
+
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; } 
+  }
+
+#box{
+    background-color: white;
+   height: 400px;
+   width: 300px;
+   border: 0px solid black;
+   align-content: center;
+   text-align: center;
+   margin: auto;
+
+   border-radius: 5px;
+   margin-top: 250px;
+   box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+#box button{
+    cursor: pointer;
+}
+
+#text{
+ display: inline-block;
+ margin-bottom: 10px;
+ 
+   
+}
+#add{
+    margin-top: 25px;
+    font-size: large;
+    padding: 5px 111px;
+    font-weight: bold;
+}
+#remove{
+    font-size: large;
+    padding: 5px 95px;
+    font-weight: bold;
+}
+#show{
+    font-size: large;
+    padding: 5px 104px;
+    font-weight: bold;
+}
+#task_input{
+    font-size: larger;
+    padding: 5px 28px;
+    margin-bottom: 10%;
+    outline: none;
+}
+
+#tasks{
+    color: red;
+    font-weight: bold;    
+    font-size: 18px;     
+    padding-left: 7%;      
+    border-radius:5px;   
+    
+}
+#tasks li{
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
